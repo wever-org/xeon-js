@@ -13,7 +13,7 @@ var isParent = false;
  * @IMP - Those collections are by default selected by the wever team.
  * Yet you can customize these.
  */
-const collections = {
+const NS = {
       /**
        * All important namespace uris.
        * Collected from both MDN(https://developer.mozilla.org/) and W3(https://www.w3.org/)
@@ -54,7 +54,13 @@ const collections = {
  * @param {HTMLElement} parent
  */
 export default function createRealElement(tag, parent) {
-      if (parent !== undefined) isParent = true;
+
+      /**
+       * @global
+       * If parent exist then set isParent to true;
+       */
+      isParent = !(parent === undefined);
+
       // console.log(isParent);
-      return canUseDOM ? (isParent ? dom.createElementNS(collections.NAMESPACE_URI[tag], tag, parent) : dom.createElementNS(collections.NAMESPACE_URI[tag], tag)) : null;
+      return canUseDOM ? (isParent ? dom.createElementNS(NS.NAMESPACE_URI[tag], tag, parent) : dom.createElementNS(NS.NAMESPACE_URI[tag], tag)) : null;
 }
