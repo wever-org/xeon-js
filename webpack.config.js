@@ -35,16 +35,16 @@ module.exports = {
                                                       "presets": [
                                                             "@babel/preset-env",
                                                             "@babel/typescript",
-                                                            [
-                                                                  "@babel/preset-react",
-                                                                  {
-                                                                        "pragma": "xeon.createElement", // default pragma is React.createElement (only in classic runtime)
-                                                                        "pragmaFrag": "xeon.Fragment", // default is React.Fragment (only in classic runtime)
-                                                                        "throwIfNamespace": false, // defaults to true
-                                                                        "runtime": "classic" // defaults to classic
-                                                                        // "importSource": "custom-jsx-library" // defaults to react (only in automatic runtime)
-                                                                  }
-                                                            ]
+                                                            // [
+                                                            //       "@babel/preset-react",
+                                                            //       {
+                                                            //             "pragma": "xeon.createElement", // default pragma is React.createElement (only in classic runtime)
+                                                            //             "pragmaFrag": "xeon.Fragment", // default is React.Fragment (only in classic runtime)
+                                                            //             "throwIfNamespace": false, // defaults to true
+                                                            //             "runtime": "classic" // defaults to classic
+                                                            //             // "importSource": "custom-jsx-library" // defaults to react (only in automatic runtime)
+                                                            //       }
+                                                            // ]
                                                       ],
                                                       "plugins": [
                                                             [
@@ -53,9 +53,9 @@ module.exports = {
                                                             [
                                                                   "@babel/plugin-syntax-dynamic-import"
                                                             ],
-                                                            // [
-                                                            //       "module:@xeonjs/jsx2xset"
-                                                            // ]
+                                                            [
+                                                                  "module:@xeonjs/jsx2xset"
+                                                            ]
                                                       ]
                                                 }
                                           },

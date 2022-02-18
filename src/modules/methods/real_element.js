@@ -62,5 +62,6 @@ export default function createRealElement(tag, parent) {
       isParent = !(parent === undefined);
 
       // console.log(isParent);
-      return canUseDOM ? (isParent ? dom.createElementNS(NS.NAMESPACE_URI[tag], tag, parent) : dom.createElementNS(NS.NAMESPACE_URI[tag], tag)) : null;
+      // return canUseDOM ? (isParent ? dom.createElementNS(NS.NAMESPACE_URI[tag], tag, parent) : dom.createElementNS(NS.NAMESPACE_URI[tag], tag)) : null;
+      
 }
