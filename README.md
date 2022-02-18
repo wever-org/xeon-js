@@ -3,7 +3,7 @@
 ***<h2>@WEVER - the modern technology to built incredible User Interfaces</h2>***
 
 <a href="https://github.com/wever-org">
-<img alt="Wever logo" width="500px" src="https://cdn.discordapp.com/attachments/939851406075134013/944171249200947220/cover4.svg"/>
+<img alt="Wever logo" width="500px" src="https://cdn.discordapp.com/attachments/939851406075134013/944301166060261416/cover-figma.png"/>
 </a>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?logo=license)](https://github.com/)
