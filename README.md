@@ -16,6 +16,8 @@
 component-based JavaScript framework & library to build
 complex and incredible UI (User Interface).**
 
+<hr />
+
 </div>
 
 # xeon-js
