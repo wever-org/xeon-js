@@ -18,12 +18,14 @@ complex and incredible UI (User Interface).**
 
 <hr />
 
+<h2><pre>🛠 Under Mentainance 🛠</pre></h2>
+
 </div>
 
 # xeon-js
-The main script library of wever js.
+The main script library of wever js. This is the library where all the methods like `XSET()`, `createElement()`, `HTMLElement.update(element: XSETObject)` exists. You can directly use them by importing them via the object destructuring method or you can also get them from xeon class.
 
-## Installation
+## How to use independently?
 * Clone or download the repository in your local mechanic.
 * Run command `npm install` in the terminal (within the directory).
 * Then start the server using `npm start`.
@@ -32,4 +34,4 @@ Your app will be hosted in Port 3000. Go to [localhost:3000](https://localhost:3
 
 Try editing the `entry.js` file.
 
-Currently the project is under construction, so HRM (Hot Reload Module) is unavailable.
+Currently the project is under construction, so HMR (Hot Module Replacement) is unavailable.
